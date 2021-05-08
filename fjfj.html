@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="vieport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+	<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin='anonymous'></script>
+
+	<title></title>
+</head>
+
+<body>
+
+	<input type="checkbox" id="check">
+	<label for="check">
+		<i class='fas fa-bars' style='font-size:30px;' id="btnn"></i>
+		<i class='fas fa-eye-slash' id="cancel" style='font-size:24px'></i>
+	</label>
+	<div class="sidebar">
+		<header class="header2">Menu</header>
+		<ul class="ull">
+			<li><a href="">Home</a></li>
+			<li><a href="">Gallery</a></li>
+			<li><a href="">Student Portal</a></li>
+			<li><a href="">Academics</a></li>
+			<li><a href="">Resources</a></li>
+			<li><a href="">About Faculty</a></li>
+		</ul>
+			
+		
+		
+	</div>
+	
+	
+	
+		<section class="course">
+		
+		<div class="row1">
+			<h1 style="color: black;">Select sem</h1>
+		<p style="color: black">according to sem the display will be there</p>
+			<div class="course-col1">
+				<h3>1 Sem</h3>
+				
+				
+			</div>
+			<div class="course-col1">
+				<h3>2 Sem</h3>
+				
+				
+			</div>
+			<div class="course-col1">
+				<h3>3 Sem</h3>
+				
+				
+			</div>
+			<div class="course-col1">
+				<h3>4 Sem</h3>
+				
+				
+			</div>
+			<div class="course-col1">
+				<h3>5 Sem</h3>
+				
+				
+			</div>
+			<div class="course-col1">
+				<h3>6 Sem</h3>
+				
+				
+			</div>
+			<div class="course-col1">
+				<h3>7 Sem</h3>
+				
+				
+			</div>
+			<div class="course-col1">
+				<h3>8 Sem</h3>
+				
+				
+			</div>
+			
+		</div>
+		
+	</section>
+
+	</section>
+</body>
+<style type="text/css">
+	@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap")
+	body{
+		font-family: 'Roboto',sans-serif;
+	}
+	*{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		text-decoration: none;
+	}
+	.sidebar{
+		position: fixed;
+		left: -250px;
+		width: 250px;
+		height: 100%
+		background:black;
+		transition: all .5s ease;
+	}
+	.sidebar header{
+		font-size: 22px;
+		color: black;
+		text-align: center;
+		line-height: 70px;
+		background:gold;
+		user-select: none;
+	}
+	.sidebar ul a{
+		display: block;
+		width: 100%;
+		height: 100%;
+		line-height: 65px;
+		font-size: 17px;
+		color: black;
+		padding-left: 45px;
+		box-sizing: border-box;
+		border-top: 1px solid black;
+		border-bottom: 1px solid pink;
+		transition: .4s;
+
+
+	}
+	ul li:hover a{
+		padding-left: 30px;
+
+	}
+	.sidebar ul{
+
+	}
+	#check{
+		display: none;
+
+	}
+label #btnn,label #cancel{
+	position: absolute;
+	cursor: pointer;
+	
+}
+label #btnn{
+	left: 40px;
+	top: 25px;
+	font-size: 35;
+	color: black;
+   padding: 6px 12px;
+   transition: all .5s;
+}
+label #cancel{
+	z-index: 1111;
+	left: -195px;
+	top: 17px;
+	font-size: 30px;
+	color: red;
+	padding: 4px 9px;
+    transition: all .5s ease;
+}
+#check:checked ~ .sidebar{
+	left: 0;
+}
+#check:checked ~ .label #btnn{
+	left: 250px;
+	opacity: 0;
+	pointer-events: none;
+}
+#check:checked ~ .label #cancel{
+	left: 150px;
+}
+
+
+</style>
+</html>
