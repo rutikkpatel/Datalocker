@@ -7,6 +7,7 @@ The App also provide basic information about your device.
 User's multimedia and documents can also be stored in cloud so facility of cloud computing is also there.
 Unique of these Application is that User cannot enter into login page until it passes through pattern verification,
 After pattern verification user can log in with valid username and password.
+For Downloading Our Application Visit Visit Our [Website](https://rutikkpatel.github.io/Datalocker/index.html)
 
 
 ## Step 0 :
