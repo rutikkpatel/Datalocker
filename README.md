@@ -12,7 +12,7 @@ For Downloading Our Application Visit Visit Our [Website](https://rutikkpatel.gi
 
 ## Step 0 :
 ```bash
-Visit Our [Website](https://rutvikpatel20.github.io/Datalocker/index.html)
+Visit Our [Website](https://rutikkpatel.github.io/Datalocker/index.html)
 Download the APK
 Install the APK
 ```
